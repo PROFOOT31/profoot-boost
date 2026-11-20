@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#07100c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PROFOOT BOOST">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+  <title>PROFOOT BOOST</title>
+</head>
+<body>
+  <header class="top">
+    <div class="brand"><span class="mark">P</span><div><b>PROFOOT</b><small>BOOST / STUDIO</small></div></div>
+    <span class="status"><i></i> ESPACE PRO</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">TON CENTRE DE CROISSANCE</p>
+      <h1>FAIS GRANDIR<br><em>PROFOOT.</em></h1>
+      <p class="sub">Analyse, idées et organisation pour développer ta communauté football.</p>
+      <div class="hero-line"><span></span><small>VERSION 01 · BÊTA</small></div>
+    </section>
+
+    <section class="section-head"><div><p class="eyebrow">VUE D’ENSEMBLE</p><h2>Ton tableau de bord</h2></div><span class="live">APERÇU</span></section>
+    <div class="stats">
+      <article class="stat"><span>👁</span><small>VUES</small><strong>—</strong><label>À connecter</label></article>
+      <article class="stat"><span>♧</span><small>ABONNÉS</small><strong>—</strong><label>À connecter</label></article>
+      <article class="stat"><span>♥</span><small>INTERACTIONS</small><strong>—</strong><label>À connecter</label></article>
+      <article class="stat"><span>▤</span><small>PUBLICATIONS</small><strong>0</strong><label>À planifier</label></article>
+    </div>
+
+    <section class="panel">
+      <div class="panel-title"><div><p class="eyebrow">OUTIL 01</p><h2>Générateur de hashtags</h2></div><span class="number">01</span></div>
+      <p class="muted">Choisis un thème pour obtenir des hashtags adaptés à tes publications.</p>
+      <select id="topic">
+        <option value="training">Entraînement & performance</option>
+        <option value="talent">Détection de talents</option>
+        <option value="news">Actualité football</option>
+        <option value="academy">Formation & jeunes joueurs</option>
+        <option value="recruit">Recrutement & clubs</option>
+      </select>
+      <button id="generate">GÉNÉRER LES HASHTAGS ↗</button>
+      <div id="tags" class="tags">Tes hashtags apparaîtront ici.</div>
+      <button id="copy" class="secondary" disabled>COPIER LES HASHTAGS</button>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title"><div><p class="eyebrow">OUTIL 02</p><h2>Planificateur de contenu</h2></div><span class="number">02</span></div>
+      <label class="field-label" for="idea">Idée de publication</label>
+      <input id="idea" placeholder="Ex. : Présentation d'un jeune talent">
+      <label class="field-label" for="date">Date prévue</label>
+      <input id="date" type="date">
+      <button id="add">AJOUTER AU PROGRAMME +</button>
+      <div id="schedule" class="schedule"><p class="muted">Aucune publication planifiée.</p></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title"><div><p class="eyebrow">OUTIL 03</p><h2>Conseils de croissance</h2></div><span class="number">03</span></div>
+      <div class="tip"><b>01 / ACCROCHE</b><p>Commence tes Reels par une action forte ou une question qui donne envie de regarder la suite.</p></div>
+      <div class="tip"><b>02 / RÉGULARITÉ</b><p>Prépare plusieurs contenus à l’avance et observe ceux qui suscitent le plus de réactions.</p></div>
+      <div class="tip"><b>03 / COMMUNAUTÉ</b><p>Réponds aux commentaires et échange avec les joueurs, clubs et passionnés de football.</p></div>
+    </section>
+
+    <section class="notice"><b>Connexion Instagram</b><p>Les statistiques réelles ne sont pas encore connectées. La prochaine étape sera la configuration de l’API officielle Instagram/Meta. Aucun mot de passe Instagram ne doit être saisi dans cette version.</p></section>
+  </main>
+  <footer>PROFOOT BOOST <span>BUILT FOR THE GAME.</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
